@@ -53,7 +53,7 @@ function googleAnalyticsMiddleware(data) {
 }
 
 var unblockerConfig = {
-    prefix: '/HeHeBOI/',
+    prefix: '/proxy/',
     responseMiddleware: [
         googleAnalyticsMiddleware
     ]
