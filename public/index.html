@@ -155,6 +155,9 @@ Nodeunblocker.com
 		
 		$('unblocker-form').onsubmit = function(){
 			var url = $('url').value;
+			if(url == ''){
+				return false;
+			}
 			if(url.substr(0,4) != "http"){
 				url = "http://" + url;
 			}
