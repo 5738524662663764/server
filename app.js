@@ -53,7 +53,7 @@ function googleAnalyticsMiddleware(data) {
 }
 
 var unblockerConfig = {
-    prefix: '/enredw25h9hjqc3rgakf/',
+    prefix: '/A-enredw25h9hjqc3rgakfogepki59ofrvucy8kzvu/',
     responseMiddleware: [
         googleAnalyticsMiddleware
     ]
